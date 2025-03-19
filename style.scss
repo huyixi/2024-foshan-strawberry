@@ -1,60 +1,60 @@
-            body {
-              font-family: Arial, sans-serif;
-              background-color: #f8fafc;
-              text-align: center;
-              height: 100vh;
-              width: 100vw;
-              min-width: 600px;
-            }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  min-width: 600px;
+}
 
-            .table-x {
-              width: 80%;
-              margin: 20px auto;
-              border-radius: 12px;
-              border: 1px solid #f8fafc;
-              overflow: hidden;
-            }
+.table-x {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 1px solid #f8fafc;
+  overflow: hidden;
+}
 
-            table {
-              width: 100%;
-              border-collapse: collapse;
-              border-radius: 12px;
-              overflow: hidden;
-            }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
-            th,
-            td {
-              padding: 12px;
-              border: 1px solid #dddddd80;
-              text-align: center;
-            }
+th,
+td {
+  padding: 12px;
+  border: 1px solid #dddddd80;
+  text-align: center;
+}
 
-            th {
-              background-color: #3b82f6;
-              color: #fff;
-              overflow: hidden;
-            }
+th {
+  background-color: #3b82f6;
+  color: #fff;
+  overflow: hidden;
+}
 
-            tr:first-child th:first-child {
-              border-top-left-radius: 12px;
-            }
+tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
 
-            tr:first-child th:last-child {
-              border-top-right-radius: 12px;
-            }
+tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
 
-            tr:last-child td:first-child {
-              border-bottom-left-radius: 12px;
-            }
+tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
 
-            tr:last-child td:last-child {
-              border-bottom-right-radius: 12px;
-            }
+tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
 
-            .group-a {
-              background-color: #fff;
-            }
+.group-a {
+  background-color: #fff;
+}
 
-            .group-b {
-              background-color: #f3f3f3;
-            }
+.group-b {
+  background-color: #f3f3f3;
+}
