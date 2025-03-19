@@ -37,22 +37,18 @@ th {
 
 tr:first-child th:first-child {
     border-top-left-radius: 12px;
-    border: none;
 }
 
 tr:first-child th:last-child {
     border-top-right-radius: 12px;
-    border: none;
 }
 
 tr:last-child td:first-child {
     border-bottom-left-radius: 12px;
-    border: none;
 }
 
 tr:last-child td:last-child {
     border-bottom-right-radius: 12px;
-    border: none;
 }
 
 .group-a {
