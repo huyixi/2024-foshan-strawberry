@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>演出时间表</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8fafc;
+                text-align: center;
+                height: 100vh;
+                width: 100vw;
+                min-width: 600px;
+            }
+            .table-x {
+                width: 80%;
+                margin: 20px auto;
+                border-radius: 12px;
+                border: 1px solid #f8fafc;
+                overflow: hidden;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                border-radius: 12px;
+                overflow: hidden;
+            }
+            th,
+            td {
+                padding: 12px;
+                border: 1px solid #dddddd80;
+                text-align: center;
+            }
+            th {
+                background-color: #3b82f6;
+                color: #fff;
+                overflow: hidden;
+            }
+            tr:first-child th:first-child {
+                border-top-left-radius: 12px;
+            }
+            tr:first-child th:last-child {
+                border-top-right-radius: 12px;
+            }
+            tr:last-child td:first-child {
+                border-bottom-left-radius: 12px;
+            }
+            tr:last-child td:last-child {
+                border-bottom-right-radius: 12px;
+            }
+            .group-a {
+                background-color: #fff;
+            }
+            .group-b {
+                background-color: #f3f3f3;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>演出时间表</h2>
+        <div class="table-x">
+            <table>
+                <colgroup>
+                    <col style="width: 25%" />
+                    <col style="width: 25%" />
+                    <col style="width: 25%" />
+                    <col style="width: 25%" />
+                </colgroup>
+                <tr>
+                    <th>时间</th>
+                    <th>工作组别</th>
+                    <th>草莓舞台</th>
+                    <th>爱舞台</th>
+                </tr>
+                <tr class="group-a">
+                    <td>准备阶段</td>
+                    <td rowspan="3">A</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="group-a">
+                    <td>13:30 - 14:10</td>
+                    <td></td>
+                    <td>椿</td>
+                </tr>
+                <tr class="group-a">
+                    <td>14:10 - 14:50</td>
+                    <td>DOUDOU</td>
+                    <td></td>
+                </tr>
+                <tr class="group-b">
+                    <td>14:50 - 15:30</td>
+                    <td rowspan="2">B</td>
+                    <td></td>
+                    <td>犬儒</td>
+                </tr>
+                <tr class="group-b">
+                    <td>15:30 - 16:10</td>
+                    <td>夏日入侵企画</td>
+                    <td></td>
+                </tr>
+                <tr class="group-a">
+                    <td>16:10 - 16:50</td>
+                    <td rowspan="2">A</td>
+                    <td></td>
+                    <td>蛙池</td>
+                </tr>
+                <tr class="group-a">
+                    <td>16:50 - 17:30</td>
+                    <td>棱镜</td>
+                    <td></td>
+                </tr>
+                <tr class="group-b">
+                    <td>17:30 - 18:10</td>
+                    <td rowspan="2">B</td>
+                    <td></td>
+                    <td>梅卡德尔</td>
+                </tr>
+                <tr class="group-b">
+                    <td>18:10 - 18:50</td>
+                    <td>声音碎片</td>
+                    <td></td>
+                </tr>
+                <tr class="group-a">
+                    <td>18:50 - 19:30</td>
+                    <td rowspan="2">A</td>
+                    <td></td>
+                    <td>二手玫瑰</td>
+                </tr>
+                <tr class="group-a">
+                    <td>19:30 - 20:10</td>
+                    <td>郭顶</td>
+                    <td></td>
+                </tr>
+                <tr class="group-b">
+                    <td>20:10 - 20:50</td>
+                    <td rowspan="2">B</td>
+                    <td></td>
+                    <td>痛仰</td>
+                </tr>
+                <tr class="group-b">
+                    <td>20:50 - 收摊</td>
+                    <td>万能青年旅店</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
